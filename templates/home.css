@@ -52,7 +52,12 @@ a {text-decoration: none;
 
 .btn_start{
     padding: 7px 40px ;
+    border-radius: 4px;
     display:inline-block;
     background-color:#C4C4C4;
     font-weight: 400;
+}
+
+.btn_start:hover {
+    background-color: #aaaaaa;
 }
