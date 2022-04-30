@@ -39,7 +39,7 @@ function crop() {
     formData.append('croppedImage', blob);
 
     // Use `jQuery.ajax` method
-    $.ajax('#', {
+    $.ajax('sampe.json', {
       method: "POST",
       data: formData,
       processData: false,
