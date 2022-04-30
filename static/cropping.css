@@ -1,0 +1,53 @@
+header {
+  position: relative;
+  height: 65px;
+  width: 100%;
+  background: #FFE9B1;
+}
+
+.title {
+  height: 65px;
+  margin-left: 5%;
+}
+
+.edit {
+    max-width: 100%;
+  }
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 25%;
+  margin: 0 auto;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  margin-top: 64px;
+}
+
+.right {
+  width: 75%;
+}
+
+.pray {
+  margin-top: 64px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px){
+  .left, .right {
+    width: 100%;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+}
