@@ -49,12 +49,10 @@ a {text-decoration: none;
 .btn {
     margin-top: 27px;
 }
+
 .btn_start{
     padding: 7px 40px ;
     display:inline-block;
     background-color:#C4C4C4;
     font-weight: 400;
-
 }
-
-
