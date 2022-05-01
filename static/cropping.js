@@ -30,6 +30,8 @@ function inputChange(){
     });
 };
 
+let katsu = document.getElementById('katsu');
+
 // トリミングしたのを生成してバックにpostする処理
 function crop() {
 
@@ -38,18 +40,36 @@ function crop() {
 
     formData.append('croppedImage', blob);
 
-    // Use `jQuery.ajax` method
-    $.ajax('sampe.json', {
-      method: "POST",
-      data: formData,
-      processData: false,
-      contentType: false,
-      success: function () {
-        console.log('Upload success');
-      },
-      error: function () {
-        console.log('Upload error');
-      }
-    });
+    if (katsu.selected){
+      // カツ丼が選択されたときの処理
+      console.log('カツ丼おいしい')
+      $.ajax('#', {
+        method: "POST",
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function () {
+          console.log('Upload success');
+        },
+        error: function () {
+          console.log('Upload error');
+        }
+      });
+    }else{
+      // たこ焼きが選択されたときの処理
+      console.log('たこ焼き美味しい')
+      $.ajax('#', {
+        method: "POST",
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function () {
+          console.log('Upload success');
+        },
+        error: function () {
+          console.log('Upload error');
+        }
+      });
+    }
   });
 };
