@@ -1,24 +1,27 @@
 body {
-    width: 100%;  
-    height: 524px;
     margin: 0;
     font-family: "Inter";
   }
 
-a {text-decoration: none;
+a {
+    text-decoration: none;
     color:black;
 }
-.header {
-    position: relative;
+
+header {
     height: 65px;
     width: 100%;
     background: #FFE9B1;
   }
 
+  .title {
+    height: 65px;
+    margin-left: 5%;
+  }
+
 
 .main {
     text-align: center;
-    position: absolute;
     width: 100%;
     height: 459px;
     color: black;
@@ -29,16 +32,19 @@ a {text-decoration: none;
     font-style: normal;
     font-weight: 900;
 }
+
 .img_center{
+    width: 40%;
+    max-width: 40%;
     margin-top: 0px;
+    margin: 0 auto;
     margin-bottom: 0px;
 
 }
 .img {
     margin-top: 30px;
-    width: 200px;
-    height: 300px;
-
+    width: 100%;
+    height: auto;
 }
 .btn {
     margin-top: 27px;
