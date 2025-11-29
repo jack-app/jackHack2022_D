@@ -1,3 +1,2 @@
-# jackHack2022_D
-テスト
-test(togosi)
+# Free AI at api.airforce
+https://discord.gg/AJDsM7jtbq
